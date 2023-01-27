@@ -1,0 +1,10 @@
+body {
+    background: #efefef;
+}
+
+#mountain {
+    background-image: url('./assets/mountain.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

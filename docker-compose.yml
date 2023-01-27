@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  client:
+    image: esbuild-from-scratch
+    build: .
+    container_name: esbuild
+    ports:
+      - 9000:80
+    volumes:
+      - /Users/maximedenoun/react/scratch/src:/usr/src/app/src
+    stdin_open: true
